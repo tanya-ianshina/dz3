@@ -1,0 +1,30 @@
+def circle():
+  r = int(input())
+  z = 3.14 * r**2
+  print(z)
+
+def mnogoug():
+  r = int(input('радиус:'))
+  n = int(input('число сторон:'))
+  a = int(input('длина стороны:'))
+  s = 0.5*r*n*a
+  print(s)
+
+
+def treugol():
+  a = int(input('сторона треугольника:'))
+  h = int(input('высота:'))
+  z = 0.5 * a *h
+  print(z)
+
+def pryamoug():
+  a = int(input('сторона1:'))
+  b = int(input('сторона2:'))
+  print(a*b)
+
+def trap():
+  a = int(input('основание1:'))
+  b = int(input('основание2:'))
+  h = int(input('высота:'))
+  s = ((a+b)/2)*h
+  print(s)
